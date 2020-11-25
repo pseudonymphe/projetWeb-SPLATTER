@@ -22,10 +22,8 @@ body, html {
   width: 1170px;
 }
 
-.main-nav .container {
-  align-items: center;
+.d-flex, .main-nav, .nav-logo, .cont-adv, .cont-foot, .socials ul {
   display: flex;
-  justify-content: space-between;
 }
 
 nav, h2, h3, h4, h5, h6 ul, a, p, .footer-email, .foot-span {
@@ -52,10 +50,6 @@ a {
   text-decoration: none;
 }
 
-.d-flex, .main-nav, .nav-logo, .cont-adv, .cont-foot, .socials ul {
-  display: flex;
-}
-
 section, footer, .col article, .foot-col{
   display: inline-block;
   margin: 0;
@@ -67,6 +61,12 @@ section, footer, .col article, .foot-col{
   top: 0;
   width: 100%;
   z-index: 4;
+}
+
+.main-nav .container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
 }
 
 .menu-toggle, .connect-toggle {
@@ -110,7 +110,7 @@ section, footer, .col article, .foot-col{
 header {
   background-attachment: scroll;
   background-image: url("../images/paint-splatters7.jpg");
-  background-size: cover;
+  background-size: contain;
   background-position: top;
   background-repeat: no-repeat;
   padding: 100px 0;
