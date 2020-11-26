@@ -157,8 +157,16 @@ header .container {
   width: 100%;
 }
 
+.banner-cta img {
+  display: block;
+}
+
+.col:last-child {
+  margin-right: 0;
+}
+
 .col, .cat-col {
-  padding-right: 10px;
+  margin-right: 10px;
   width: 100%;
 }
 
@@ -185,7 +193,6 @@ header .container {
 }
 
 .banner-img, .spotlight-img {
-  margin-top: -3px;
   width: 100%;
 }
 /**************** SPOTLIGHT *******************/
