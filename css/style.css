@@ -166,7 +166,7 @@ footer p {
 }
 
 .newsletter h3 {
-  margin-bottom: 31px;
+  margin-bottom: 36px;
 }
 
 .newsletter a:hover, .about a:hover, .socials a:hover {
@@ -287,6 +287,11 @@ header .container {
 
 .spotlight-ov h2 {
   padding-bottom: 5px;
+}
+
+.spotlight-header {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 3rem;
 }
 
 .spotlight-ov, .categories-ov {
